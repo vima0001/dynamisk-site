@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produktliste</title>
+    <link rel="stylesheet" href="css/generel.css">
+    <link rel="stylesheet" href="css/produktliste.css">
+</head>
+
+<body>
+    <header class="mainNav">
+        <a href="index.html">
+            <h1>
+                Fashion<span>R</span>Us
+            </h1>
+        </a>
+        <!-- <h1>Puma</h1> -->
+    </header>
+<main>
+
+<!-- <div id="grid_1_1_1"> -->
+
+<template id="smallProductTemplate">
+    <article class="smallProduct">
+<a href="produkt.html">
+    <img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="">
+</a>
+<h3>Big Cat Backpack Black</h3>
+<p class="subtle"> Rygsæk | Puma</p>
+<p class="price">DKK 1299,-</p>
+<form>
+    <label>Hurtig tilføjelse
+        <select name="size">
+            <option>OZ</option>
+        </select>
+    </label>
+    <button>Føj til kurv</button>
+</form>
+<div class="laes_mere">
+    <a href="produkt.html">
+        <p class="Specifikationer">Specifikationer</p>
+    </a>
+</div>
+<!-- <div class="soldout">
+    <p>Udsolgt</p>
+</div> -->
+<div class="udsolgttag">
+    <p>Udsolgt</p>
+</div>
+    </article>
+</template>
+
+    
+<!-- </div>     -->
+    
+
+
+    <!-- <div class="produkter">
+        <a href="produkt.html">
+    <img src="https://kea-alt-del.dk/t7/images/webp/640/1528.webp" alt="">
+    </a>
+    <div class="rabattag">
+        <p>50%</p>
+    </div>
+    <h3>Big Cat Backpack Black</h3>
+    <p class="subtle"> Fleecejakke | Puma</p>
+    <div class="rabat">
+    <p class="price_before">DKK 1299,-</p>
+    <p class="price_after">DKK 649,-</p>
+    </div>
+    <form>
+        <label>Hurtig tilføjelse
+            <select name="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+        </label>
+        <button>Føj til kurv</button>
+    </form>
+    <div class="laes_mere">
+        <a href="produkt.html">
+            <p class="Specifikationer">Specifikationer</p>
+        </a>
+    </div>
+    </div>
+
+
+    <div class="produkter">
+        <a href="produkt.html">
+    <img src="img/1533.webp" alt="" class="soldout">
+    </a>
+    <div class="udsolgttag">
+        <p>Udsolgt</p>
+    </div>
+    <h3>Casual tee</h3>
+    <p class="subtle"> T-shirt | Puma</p>
+        <p class="price">DKK 1899,-</p>
+   
+    <form>
+        <label>Hurtig tilføjelse
+            <select name="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+        </label>
+        
+        <button>Føj til kurv</button>
+    </form>
+    <div class="laes_mere">
+        <a href="produkt.html">
+            <p class="Specifikationer">Specifikationer</p>
+        </a>
+    </div>
+    </div>
+
+
+    <div class="produkter">
+        <a href="produkt.html">
+    <img src="img/1533.webp" alt="" class="udsolgt_rabat">
+    </a>
+    <div class="rabattag2">
+        <p>50%</p>
+    </div>
+    <div class="udsolgttag">
+        <p>Udsolgt</p>
+    </div>
+    <h3>Casual tee</h3>
+    <p class="subtle"> T-shirt | Puma</p>
+    <div class="rabat">
+        <p class="price_before">DKK 1299,-</p>
+        <p class="price_after">DKK 649,-</p>
+    </div>
+    
+    <form>
+        <label>Hurtig tilføjelse
+            <select name="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+        </label>
+    
+        <button>Føj til kurv</button>
+    </form>
+    <div class="laes_mere">
+        <a href="produkt.html">
+            <p class="Specifikationer">Specifikationer</p>
+        </a>
+    </div>
+    
+
+
+    <div class="produkter">
+        <a href="produkt.html">
+    <img src="img/1533.webp" alt="">
+    </a>
+    <h3>Big Cat Backpack Black</h3>
+    <p class="subtle"> Rygsæk | Puma</p>
+    <p class="price">DKK 1299,-</p>
+    <form>
+        <label>Hurtig tilføjelse
+            <select name="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+    
+            </select>
+        </label>
+        <button>Føj til kurv</button>
+    </form>
+    <div class="laes_mere">
+        <a href="produkt.html">
+            <p class="Specifikationer">Specifikationer</p>
+        </a>
+    </div>
+    </div>
+
+
+    <div class="produkter">
+        <a href="produkt.html">
+    <img src="img/1533.webp" alt="">
+    </a>
+    <h3>Big Cat Backpack Black</h3>
+    <p class="subtle"> Rygsæk | Puma</p>
+    <p class="price">DKK 1299,-</p>
+    <form>
+        <label>Hurtig tilføjelse
+            <select name="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+    
+            </select>
+        </label>
+        <button>Føj til kurv</button>
+    </form>
+    <div class="laes_mere">
+        <a href="produkt.html">
+            <p class="Specifikationer">Specifikationer</p>
+        </a>
+    </div>
+    </div>
+</div> -->
+</main>
+<footer>
+    
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
