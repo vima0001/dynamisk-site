@@ -2,9 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-/* section{
-    background-color: lightgray; 
-} */
+
 h3{
     font-size: 3rem;
     margin-left: 5%;
@@ -63,3 +61,7 @@ margin-top: -2rem;
         background-color: #c4d3f4;
         border: none;
     }
+
+    .hide {
+  display: none;
+}

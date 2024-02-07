@@ -19,25 +19,46 @@
         <!-- <h1>Puma</h1> -->
     </header>
 <main>
+<ol class="breadcrumbs">
+    <li>
+        <a href="index.html">Home</a>
 
-<!-- <div id="grid_1_1_1"> -->
+    </li>
+    <li>
+        <a href="kategori.html">Kategorier</a>
+    </li>
+    <li>
+        <a href="produktliste.html" class="understregning">Produkter</a>
+    </li>
+
+</ol>
+
+<h1>Puma</h1>
+<div class="grid_1_1_1">
 
 <template id="smallProductTemplate">
     <article class="smallProduct">
-<a href="produkt.html">
-    <img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="">
-</a>
-<h3>Big Cat Backpack Black</h3>
-<p class="subtle"> Rygsæk | Puma</p>
-<p class="price">DKK 1299,-</p>
-<form>
-    <label>Hurtig tilføjelse
-        <select name="size">
-            <option>OZ</option>
-        </select>
+        <a href="produkt.html">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="" class="produktListe_img">
+        </a>
+        <h3 class="produktNavn">Big Cat Backpack Black</h3>
+        <p class="subtle"> Rygsæk | Puma</p>
+        <div class="rabat">
+            <p class="normal_price">500,-</p>
+        <p class="price hide">1299,-</p>
+        <p class="price_after hide">1299,-</p>
+        </div>
+        <form>
+            <label>Hurtig tilføjelse
+            <select name="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
     </label>
-    <button>Føj til kurv</button>
-</form>
+            <button>Føj til kurv</button>
+        </form>
 <div class="laes_mere">
     <a href="produkt.html">
         <p class="Specifikationer">Specifikationer</p>
@@ -46,14 +67,22 @@
 <!-- <div class="soldout">
     <p>Udsolgt</p>
 </div> -->
-<div class="udsolgttag">
+<!-- <div class="udsolgttag">
     <p>Udsolgt</p>
+</div> -->
+
+<div class="tags">
+    <p class="udsolgttag hide"> Udsolgt</p>
+    <p class="rabattag2 hide"><span class="rabattag_span">5.5</span>%</p>
+
+
 </div>
     </article>
+
 </template>
 
     
-<!-- </div>     -->
+</div>    
     
 
 
@@ -215,6 +244,8 @@
     
 </footer>
 <script src="script.js"></script>
+<script src="kategori.js"></script>
+
 </body>
 
 </html>

@@ -1,25 +1,25 @@
-#smallProductTemplate{
-display: grid;
-grid-template-columns:repeat(3, 1fr);
-gap: 1rem;
-}
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 7%;
 }
-img{
+
+img {
     display: block;
   max-width: 100%;
   height: auto;
 }
+
+/* Navigationer */
 .mainNav h1 span {
     display: inline-block;
   transform: scaleX(-1) translateX(-0.2rem);
   color: red;
 }
+
 header{
     font-size: 2rem;
 }
+/* ------- a-tags ------- */
 a{
     text-decoration: none;
 }
@@ -27,12 +27,17 @@ a:visited{
     text-decoration: none;
     color: black;
 }
+
+/* ------Headings------ */
 h1{
     color: black;
 }
+/* Mærke og kategorier i en grålig farve */
 .subtle {
     color: #c0bfc0;
 }
+
+/* Brødkrummesti */
 .breadcrumbs {
     display: flex;
     font-size: 0.8rem;
@@ -56,4 +61,8 @@ ol{
     height: 10px;
     margin: 0 10px;
     transition: all 0.3s;
+  }
+  /* understregning af den side man er på */
+  .understregning{
+    text-decoration: underline;
   }
